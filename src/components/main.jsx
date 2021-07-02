@@ -5,10 +5,10 @@ import QuestionsList from "./questionsList";
 const Main = () => {
   return (
     <Row className="main">
-      <Col lg={4} sm={4}>
-        <h5>Questions and Answers about GitHub</h5>
+      <Col md={3}>
+        <h3>Questions and Answers about GitHub</h3>
       </Col>
-      <Col lg={8} sm={8}>
+      <Col md={9}>
         <QuestionsList />
       </Col>
     </Row>
