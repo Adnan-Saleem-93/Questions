@@ -20,7 +20,9 @@ const Question = ({id, question, answer}) => {
           </Row>
         </Card.Header>
         <Accordion.Collapse eventKey={id}>
-          <Card.Body>{answer}</Card.Body>
+          <Card.Body>
+            <p>{answer}</p>
+          </Card.Body>
         </Accordion.Collapse>
       </Card>
     </>
